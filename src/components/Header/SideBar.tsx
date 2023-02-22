@@ -3,7 +3,7 @@ import Drawer from '@mui/material/Drawer';
 export interface SideBarProps{
     open: boolean;
     onClose: () => void;
-    items: [];
+    // items: [];
 }
 export function SideBar(props:SideBarProps){
     return (
