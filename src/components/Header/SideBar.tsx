@@ -4,11 +4,11 @@ export interface SideBarProps{
     open: boolean;
     onClose: () => void;
     // items: [];
-}
+}   
 export function SideBar(props:SideBarProps){
     return (
         <Drawer open={props.open} onClose={props.onClose}>
-            <div className="bg-black w-64 p-4">
+            <div className="bg-black w-[80vw] h-[100vh] font-bold p-4 text-white">
                 <h1 className="text-lg font-bold mb-4">Minha Sidebar</h1>
                 <nav>
                     <ul>

@@ -13,15 +13,27 @@ export function Header(){
     };
 
     return (
-        <nav className="container mx-auto w-[100%] h-[50px] flex">
-            <div className="menu">
-                <MenuIcon onClick={handleOpen}></MenuIcon>
-                <SideBar open={open} onClose={handleClose}></SideBar>
+        <nav className="flex flex-col">
+            <div className="text-container">    
+                <p className="scrolling-text uppercase font-bold">  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”     Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”  Frete Grátis usando o cupom “FRETEGRATIS”</p>
             </div>
-            <div className="logo"></div>
-            <div className="user-control">
-                <div className="account"></div>
-                <div className="checkout-bag"></div>
+            <div className="main container mx-auto w-[100%] h-[50px] flex mt-1 justify-between items-center">
+                <div className="menu ">
+                    <MenuIcon onClick={handleOpen}></MenuIcon>
+                    <SideBar open={open} onClose={handleClose}></SideBar>
+                </div>
+                <div className="logo w-[15%] h-[100%]">
+                    <div className="logo-icon bg-[url('../assets/logo.png')] bg-contain bg-no-repeat bg-center w-full h-full"></div>
+                </div>
+                <div className="user-control w-[10%] h-full flex justify-around items-center">
+                    <div className="account w-[25%] h-full">
+                        <div className="user-icon bg-[url('../assets/user.png')] w-full h-full bg-contain bg-no-repeat bg-center"></div>
+                    </div>
+                    <div className="checkout-bag w-[25%] h-full">
+                        <div className="user-icon bg-[url('../assets/bag.png')] w-full h-full bg-contain bg-no-repeat bg-center"></div>
+                    </div>
+                </div>
+
             </div>
         </nav>
     )
