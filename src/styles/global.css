@@ -29,3 +29,21 @@
     }
   }
   
+.shirt-model {
+  position: relative;
+  animation-name: flutuar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}
