@@ -19,5 +19,11 @@ export function Timer(props:TimerProps){
       localStorage.setItem('timer', String(time));
     }, [time]);
   
-    return (<div className='text-white'>{time}</div>);
+    return (
+    <div className='text-white bg-whitelight px-[80px] rounded-sm py-4 text-4xl'>
+        
+        {time}
+    
+    </div>
+    );
 }
