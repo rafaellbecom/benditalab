@@ -1,3 +1,4 @@
+import React from 'react';
 export function Product(){
     return (
         <div className="product flex flex-col flex-1 w-[25%]">
@@ -16,5 +17,3 @@ export function Product(){
         </div>
     )
 }
-
-export {}
