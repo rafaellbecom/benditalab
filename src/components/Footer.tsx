@@ -2,7 +2,7 @@ import logo from '../assets/logo.png';
 
 export function Footer(){
     return (
-        <footer className="footer">
+        <footer className="footer w-full">
             <div className="main w-full h-[20vh] bg-[url('../assets/home/fitas.svg')] bg-cover bg-no-repeat bg-center"></div>
 
             <div className="main container mx-auto w-full">
