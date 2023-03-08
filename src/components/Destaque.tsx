@@ -1,6 +1,6 @@
 export function Destaque(){
     return (
-        <section className="destauqe">
+        <section className="destaque">
             <div className="main flex w-full h-[95vh] bg-[url('../assets/home/bg-destaque.png')] bg-cover bg-no-repeat bg-center">
                 <div className="col w-[50%] h-full py-[50px] px-[100px] text-white font-sans mt-[-20px]">
                     <span className="text-whitemedium uppercase font-semibold tracking-widest">COLEÇÃO START</span>
