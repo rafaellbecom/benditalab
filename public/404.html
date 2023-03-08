@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page not found</title>
+  </head>
+  <body>
+    <script>
+      const { pathname } = window.location;
+      const ghPagesUrl = `https://rafaellbecom.github.io/benditalab`;
+      const pageUrl = `${ghPagesUrl}${pathname}`;
+
+      window.location.replace(pageUrl);
+    </script>
+  </body>
+</html>
