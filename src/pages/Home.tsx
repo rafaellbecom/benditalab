@@ -3,6 +3,7 @@ import { Destaque } from "../components/Destaque";
 import { Slider } from "../components/Slider";
 import { Footer } from "../components/Footer";
 import { Product } from "../components/Product";
+import { CarouselProduct } from "../components/CarouselProduct";
 
 export function Home(){
     return(
@@ -11,6 +12,7 @@ export function Home(){
             <Destaque></Destaque>
             <Slider></Slider>
             <Product></Product>
+            <CarouselProduct></CarouselProduct>
             <Footer></Footer>
         </div>
     )
