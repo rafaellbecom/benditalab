@@ -1,9 +1,11 @@
+import {Tag} from './Utils/Tag';
 import React from 'react';
+
 export function Product(){
     return (
         <div className="product flex flex-col flex-1 w-[25%]">
             <div className="product-image w-full h-[455px] bg-[url('../assets/product/imagem-product.jpg')] bg-cover bg-no-repeat bg-center p-[15px]">
-                <span className="product-category font-sans font-semibold uppercase text-xs text-white bg-black py-[6px] px-[14px] rounded-[8px] float-right">Lançamento</span>
+                <Tag></Tag>
             </div>
 
             <div className="product-content">
