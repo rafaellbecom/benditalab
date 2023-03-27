@@ -3,7 +3,7 @@ import React from 'react';
 
 export function Product(){
     return (
-        <div className="product flex flex-col flex-1 w-[25%]">
+        <div className="product flex flex-col flex-1 w-[100%] h-full">
             <div className="product-image w-full h-[455px] bg-[url('../assets/product/imagem-product.jpg')] bg-cover bg-no-repeat bg-center p-[15px]">
                 <Tag></Tag>
             </div>

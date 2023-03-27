@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
+import { Pagination, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -7,17 +7,21 @@ import 'swiper/css/scrollbar';
 import { Product } from './Product';
 export function CarouselProduct (){
   return (
-    <div className="main container w-[100vw] h-[90vh] flex items-center justify-center overflow-hidden">
+    <div className="main container w-[100vw] h-[100vh] flex items-center justify-center overflow-hidden">
+            <div className="swiper-button-prev"></div>
+            <div className="swiper-button-next"></div>
             <Swiper
-                slidesPerView={3}
-                spaceBetween={0}
-                pagination={{
+            
+              modules={[Pagination, Navigation]}
+              slidesPerView={3}
+              spaceBetween={50}
+              navigation
+              pagination={{
                 clickable: true,
                 }}
-                modules={[Pagination]}
-                className="mySwiper"
+              className="mySwiper"
             >
-              <SwiperSlide>
+              <SwiperSlide className="w-[100vw]">
                 <Product></Product>
               </SwiperSlide>
               <SwiperSlide>
@@ -27,6 +31,7 @@ export function CarouselProduct (){
                 <Product></Product>
               </SwiperSlide>
             </Swiper>
+            <div className="swiper-navigation-container"></div>
     </div>
   );
 };
