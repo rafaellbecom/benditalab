@@ -28,7 +28,12 @@ module.exports = {
       blackmedium: '#00000040', 
       whitelight: '#FFFFFF10', 
       whitedark: '#FFFFFF70', 
-      whitemedium: '#FFFFFF40', 
+      whitemedium: '#FFFFFF40',
+      purple: '#5B151A',
+      lime: '#768842',
+      sky: '#1F283F',
+      amber: '#DFD2BA',
+      grey: '#404040'
     }
   },
   plugins: [],

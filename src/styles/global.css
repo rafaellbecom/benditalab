@@ -66,3 +66,26 @@
   z-index: 1000;
 }
 
+.title-side-bar{
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.side-bar div{
+  margin-bottom: 30px;
+}
+
+.side-bar .sizes .size{
+  font-family: 'Archivo', sans-serif;
+}
+
+.side-bar .colors .color{
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  border: 2px solid #00000040;
+}
