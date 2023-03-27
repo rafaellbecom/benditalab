@@ -79,8 +79,21 @@
   margin-bottom: 30px;
 }
 
+.side-bar .collections .collection{
+  font-family: 'Archivo', sans-serif;
+  padding: 6px 14px;
+  background-color: #00000010;
+  color: #00000070;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
 .side-bar .sizes .size{
   font-family: 'Archivo', sans-serif;
+  font-size: 12px;
 }
 
 .side-bar .colors .color{
