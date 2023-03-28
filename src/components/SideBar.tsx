@@ -5,7 +5,7 @@ export function SideBar(){
         <main className="main side-bar w-1/3 bg-blacklight p-[32px] rounded-r-[8px]">
             <div>
                 <h3 className="title-side-bar">Coleção:</h3>
-                <div className="collections w-full flex flex-wrap justify-between items-center">
+                <div className="collections w-full flex flex-wrap justify-between items-center gap-y-[8px]">
                     <button className="collection">Start</button>
                     <button className="collection">Bendita's</button>
                     <button className="collection">Marijuana</button>
@@ -39,6 +39,7 @@ export function SideBar(){
 
             <div>
                 <h3 className="title-side-bar">Preço:</h3>
+                <Slider></Slider>
             </div>
         </main>
     )
