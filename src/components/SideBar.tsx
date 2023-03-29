@@ -1,8 +1,12 @@
 import Slider from '@mui/material/Slider';
+import { SwitchShop } from './SwitchShop';
 
 export function SideBar(){
     return (
         <main className="main side-bar w-1/3 bg-blacklight p-[32px] rounded-r-[8px]">
+            <div>
+                <SwitchShop></SwitchShop>
+            </div>
             <div>
                 <h3 className="title-side-bar">Coleção:</h3>
                 <div className="collections w-full flex flex-wrap justify-between items-center gap-y-[8px]">
