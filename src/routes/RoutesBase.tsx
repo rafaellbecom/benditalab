@@ -9,7 +9,7 @@ export const RoutesBase = () => {
          <Routes>
              <Route path="/" element={<Home/>} />
              <Route path="/signin" element={<SignIn/>} />
-             <Route path="/camisetas" element={<Camisetas/>}/>
+             <Route path="/shop/clothing" element={<Camisetas/>}/>
          </Routes>
       </BrowserRouter>
     )
