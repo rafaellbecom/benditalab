@@ -1,6 +1,6 @@
 import { Header } from "../components/Header/Header";
 import { Footer } from "../components/Footer";
-import {SideBar} from "../components/SideBar";
+import { SideBar } from "../components/SideBar/SideBar";
 
 export function Camisetas(){
     return(
