@@ -75,11 +75,11 @@
   text-transform: uppercase;
 }
 
-.side-bar div{
+.side-bar div, .side-bar-tabacaria div{
   margin-bottom: 30px;
 }
 
-.side-bar .collections .collection{
+.side-bar .collections .collection, .side-bar-tabacaria .marks .mark{
   font-family: 'Archivo', sans-serif;
   padding: 6px 14px;
   background-color: #00000010;
@@ -95,7 +95,7 @@
   font-size: 12px;
 }
 
-.side-bar .colors .color{
+.side-bar .colors .color, .side-bar-tabacaria .colors .color{
   width: 34px;
   height: 34px;
   border-radius: 17px;
