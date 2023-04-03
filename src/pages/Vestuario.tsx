@@ -3,7 +3,7 @@ import { Footer } from "../components/Footer";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { SideBar } from "../components/SideBar/SideBar";
 
-export function Camisetas(){
+export function Vestuario(){
     return(
         <main>
             <Header></Header>
