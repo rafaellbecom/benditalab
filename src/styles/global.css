@@ -101,3 +101,16 @@
   border-radius: 17px;
   border: 2px solid #00000040;
 }
+
+.titleCart{
+  text-align: center;
+  padding: 15px;
+}
+
+.titleCart h1{
+  font-family: 'Archivo', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}

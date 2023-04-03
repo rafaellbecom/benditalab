@@ -1,6 +1,10 @@
 import MenuIcon from '@mui/icons-material/Menu'
+import CartIcon from '@mui/icons-material/ShoppingBagOutlined'
+
 import React, { useState } from 'react'
 import { SideBar } from './SideBar'
+import { Cart } from '../Cart/Cart'
+
 export function Header(){
     const [open, setOpen] = useState(false);
 
@@ -10,6 +14,16 @@ export function Header(){
 
     const handleClose = () => {
         setOpen(false);
+    };
+
+    const [open2, setOpen2] = useState(false);
+
+    const handleOpen2 = () => {
+        setOpen2(true);
+    };
+
+    const handleClose2 = () => {
+        setOpen2(false);
     };
 
     return (
@@ -30,7 +44,8 @@ export function Header(){
                         <div className="user-icon bg-[url('../assets/user.png')] w-full h-full bg-contain bg-no-repeat bg-center"></div>
                     </div>
                     <div className="checkout-bag w-[25%] h-full">
-                        <div className="user-icon bg-[url('../assets/bag.png')] w-full h-full bg-contain bg-no-repeat bg-center"></div>
+                        <CartIcon onClick={handleOpen2}></CartIcon>
+                        <Cart open={open2} onClose={handleClose2}></Cart>
                     </div>
                 </div>
 
