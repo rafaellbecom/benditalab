@@ -19,7 +19,22 @@ export function Banner () {
                         </div>
                     </div>
                 </div>
-                <div className="banner-card w-[500px] h-[300px] rounded-[16px] bg-black"></div>
+
+                <div className="banner-card flex flex-row w-[500px] h-[300px] rounded-[16px] bg-black">
+                    <div className="image w-[75%] h-[300px] rounded-bl-[16px] bg-[url('../assets/home/banner/banner02.png')] bg-cover bg-no-repeat bg-center">
+                    </div>
+                    <div className="category-list w-[25%] h-[300px] flex flex-col items-center justify-center">
+                        <ul className="ml-[-180px]">
+                            <li>ACESSORIOS</li>
+                            <li>TABACO</li>
+                            <li>SEDAS...</li>
+                        </ul>
+                        <div className="cta ml-[-180px]">
+                            <button className="mt-4 rounded-[8px] bg-white  px-6 py-3 text-[18px] text-black font-bold">COMPRAR AGORA</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     )
