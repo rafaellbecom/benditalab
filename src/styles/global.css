@@ -114,3 +114,15 @@
   color: white;
   text-transform: uppercase;
 }
+
+.banner-card {
+  overflow: hidden;
+}
+
+.banner-card .image {
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner-card:hover .image{
+  transform: scale(108%);
+}

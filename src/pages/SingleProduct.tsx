@@ -5,7 +5,7 @@ import { ProductDescription } from "../components/SingleProduct/ProductDescripti
 
 export function SingleProduct(){
     return(
-        <div className="main">
+        <div className="main product">
             <Header></Header>
             <Breadcrumbs></Breadcrumbs>
 

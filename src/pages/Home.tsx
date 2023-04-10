@@ -1,8 +1,9 @@
 import { Header } from "../components/Header/Header";
 import { Destaque } from "../components/Destaque";
 import { Slider } from "../components/Slider";
-import { Footer } from "../components/Footer";
 import { CarouselProduct } from "../components/CarouselProduct";
+import { Banner } from "../components/Banner";
+import { Footer } from "../components/Footer";
 
 export function Home(){
     return(
@@ -11,6 +12,7 @@ export function Home(){
             <Destaque></Destaque>
             <Slider></Slider>
             <CarouselProduct></CarouselProduct>
+            <Banner></Banner>
             <Footer></Footer>
         </div>
     )
