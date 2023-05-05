@@ -34,6 +34,23 @@ module.exports = {
       sky: '#1F283F',
       amber: '#DFD2BA',
       grey: '#404040'
+    },
+
+    screens: {
+      'celp': {'max': '375px'},
+      // => @media (min-width: 640px) { ... }
+
+      'celg': {'max': '480px'},
+      // => @media (min-width: 768px) { ... }
+
+      'tablet': {'max': '768px'},
+      // => @media (min-width: 1024px) { ... }
+
+      'deskp': {'max': '1024px'},
+      // => @media (min-width: 1280px) { ... }
+
+      'deskg': {'max': '1440px'},
+      // => @media (min-width: 1536px) { ... }
     }
   },
   plugins: [],
