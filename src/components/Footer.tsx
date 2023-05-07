@@ -7,9 +7,9 @@ export function Footer(){
             <div className="main w-full h-[20vh] bg-[url('../assets/home/fitas.svg')] bg-cover bg-no-repeat bg-center"></div>
 
             <div className="main container mx-auto w-full">
-                <div className="row w-full h-[250px] flex justify-center items-center">
-                    <div className="col flex flex-1 h-full items-end">
-                        <ul className="nav-footer">
+                <div className="row w-full h-[250px] flex justify-center items-center tablet:flex-col">
+                    <div className="col flex flex-1 h-full items-end tablet:justify-center">
+                        <ul className="nav-footer tablet:flex tablet:flex-col tablet:items-center tablet:mt-[50px]">
                             <li><a href="../pages/Home.tsx" className="font-sans font-bold text-4xl uppercase">Home</a></li>
                             <li><a href="../pages/Home.tsx" className="font-sans font-bold text-4xl uppercase">Conta</a></li>
                             <li><a href="../pages/Home.tsx" className="font-sans font-bold text-4xl uppercase">Carrinho</a></li>
@@ -17,8 +17,8 @@ export function Footer(){
                             <li><a href="../pages/Home.tsx" className="font-sans font-bold text-4xl uppercase">Tabacaria</a></li>
                         </ul>
                     </div>
-                    <div className="col flex flex-1 h-full justify-end items-end">
-                        <img src={logo} alt="Logo-BenditaLAB" />
+                    <div className="col flex flex-1 h-full justify-end items-end tablet:mt-[25px]">
+                        <img src={logo} alt="Logo-BenditaLAB" className='tablet:h-[50px]'/>
                     </div>
                 </div>
 
@@ -34,9 +34,13 @@ export function Footer(){
                         <ul className="flex gap-[20px] justify-center align-center">
                             <li><a href="../pages/Home.tsx" className="font-sans font-regular text-lg">Termos & Condições</a></li>
                             <li><a href="../pages/Home.tsx" className="font-sans font-regular text-lg">Política de Privacidade</a></li>
-                            <li><span className="font-sans font-light text-lg text-blackdark italic">© 2023 Bendita. All rights reserved.</span></li>
+                            <li className='tablet:hidden'><span className="font-sans font-light text-lg text-blackdark italic">© 2023 Bendita. All rights reserved.</span></li>
                         </ul>
                     </div>
+                </div>
+
+                <div className='row hidden tablet:flex tablet:justify-center'>
+                    <span className="font-sans font-light text-lg text-blackdark italic">© 2023 Bendita. All rights reserved.</span>
                 </div>
 
                 <div className="row w-full h-[70px] flex justify-center items-center py-[40px]">
