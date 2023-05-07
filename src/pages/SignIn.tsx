@@ -7,6 +7,7 @@ export function SignIn(){
         <main>
             <Header></Header>
             <div className="grid grid-cols-5 h-[800px] tablet:bg-[url('../assets/login/img-signin.jpg')] tablet:grid-cols-12 tablet:bg-cover tablet:bg-bottom">
+                <div className="hidden tablet:flex tablet:col-start-1"></div>
                 <div className="col-form col-span-2 h-full flex items-center tablet:col-span-10 tablet:content-center">
                     <div className="w-[80%] mx-auto tablet:bg-white tablet:px-8 tablet:py-6 tablet:rounded-[16px]">
                         <button className="w-[50px] h-[50px] mb-[32px]"><ArrowBack className="text-lg"></ArrowBack></button>
@@ -40,6 +41,7 @@ export function SignIn(){
                         </div>
                     </div>
                 </div>
+                <div className="hidden tablet:flex tablet:col-end-1"></div>
 
                 <div className="col-span-3 h-full bg-[url('../assets/login/img-signin.jpg')] bg-cover bg-bottom tablet:hidden"></div>
             </div>
