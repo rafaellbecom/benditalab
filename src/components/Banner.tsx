@@ -3,7 +3,7 @@ export function Banner () {
         <section className="tobacconist-headshop container w-full h-[100vh] flex flex-col">
             <div className="title my-12 flex h-[12vh] items-center">
                 <h1 className="uppercase text-5xl  text-left font-bold">TABACARIA & HEADSHOP</h1>
-                <button className="mt-4 ml-4 rounded-[8px] bg-transparent border-solid border-blackmediu border-[2px] font-medium px-6 py-[9px] text-[15px] text-blackmedium">#ESTILOSMAISQUENTES</button>
+                <button className="mt-4 ml-4 rounded-[8px] bg-transparent border-solid border-blackmedium border-[2px] font-medium px-6 py-[9px] text-[15px] text-blackmedium">#ESTILOSMAISQUENTES</button>
             </div>
             <div className="banner flex flex-row justify-around  text-white text-3xl font-sans font-bold tablet:flex-col tablet:gap-[30px]">
                 <div className="banner-card flex flex-row w-[500px] h-[300px] rounded-[16px] bg-black tablet:w-[90%] tablet:m-auto">

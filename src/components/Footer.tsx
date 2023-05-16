@@ -6,7 +6,7 @@ export function Footer(){
         <footer className="footer w-full">
             <div className="main w-full h-[20vh] bg-[url('../assets/home/fitas.svg')] bg-cover bg-no-repeat bg-center"></div>
 
-            <div className="main container mx-auto w-full">
+            <div className="main container">
                 <div className="row w-full h-[250px] flex justify-center items-center tablet:flex-col">
                     <div className="col flex flex-1 h-full items-end tablet:justify-center">
                         <ul className="nav-footer tablet:flex tablet:flex-col tablet:items-center tablet:mt-[50px]">
