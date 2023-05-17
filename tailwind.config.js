@@ -10,13 +10,13 @@ module.exports = {
       }
     },
     fontFamily:{
-      xs: 14,
-      sm: 16,
-      md: 18,
-      lg: 20,
-      xl: 24,
-      '2xl': 32,
-      '4xl': 48,
+      xs: '1.4rem',
+      sm: '1.6rem',
+      md: '1.8rem',
+      lg: '2.0rem',
+      xl: '2.4rem',
+      '2xl': '3.2rem',
+      '4xl': '4.8rem',
     },
 
     colors:{
