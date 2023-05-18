@@ -6,6 +6,7 @@ import { SignUp2 } from '../pages/SignUp2';
 import { Vestuario } from '../pages/Vestuario';
 import { Tabacaria } from '../pages/Tabacaria';
 import { SingleProduct } from '../pages/SingleProduct';
+import { Checkout } from '../pages/Checkout'
 
 export const RoutesBase = () => {
     return(
@@ -18,6 +19,7 @@ export const RoutesBase = () => {
              <Route path="/shop/vestuario" element={<Vestuario/>}/>
              <Route path="/shop/tabacaria" element={<Tabacaria/>}/>
              <Route path="/shop/product" element={<SingleProduct/>}/>
+             <Route path="/checkout" element={<Checkout/>}/>
          </Routes>
       </BrowserRouter>
     )
