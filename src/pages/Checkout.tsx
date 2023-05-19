@@ -3,6 +3,7 @@ import { Footer } from "../components/Footer";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { Payment } from "../components/Checkout/Payment";
 import { Delivery } from "../components/Checkout/Delivery";
+import { CartRevision } from "../components/Checkout/CartRevision";
 
 export function Checkout(){
     return(
@@ -19,7 +20,7 @@ export function Checkout(){
                         </div>
 
                         <div className="col-span-2">
-                            
+                            <CartRevision></CartRevision>
                         </div>
                     </div>
                 </div>
