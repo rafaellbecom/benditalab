@@ -8,7 +8,7 @@ export function Perfil(){
 
             <nav>
                 <ul>
-                    
+
                 </ul>
             </nav>
         </div>
