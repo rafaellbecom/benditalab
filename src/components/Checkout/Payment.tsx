@@ -1,3 +1,5 @@
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+
 export function Payment(){
     return(
         <div className="payment bg-white w-full p-8 rounded-[24px]">
@@ -8,13 +10,12 @@ export function Payment(){
                         <option value="" disabled selected>Selecione uma opção de pagamento</option>
                         <option value="cartao">Cartão de Crédito (Até 12x sem juros)</option>
                         <option value="pix">Pix</option>
-                        <option value="boleto">Boleto</option>
                     </select>
                     <button className="w-full px-[32px] py-[16px] bg-black border-2 border-black rounded-[8px] font-sans font-bold text-xl text-white uppercase">Continuar</button>
                 </form>
             </div>
             
-            <div className="optionCart mt-8">
+            <div className="optionCart mt-8 hidden">
                 <h2 className="font-sans font-bold text-2xl uppercase text-center">Cartão de Crédito (Até 12x sem juros)</h2>
                 <form className="formCart flex flex-col gap-4 mt-4 w-[80%] m-auto">
                     <div className="row">
@@ -41,6 +42,23 @@ export function Payment(){
 
                     <button className="w-full px-[32px] py-[16px] bg-black border-2 border-black rounded-[8px] font-sans font-bold text-xl text-white uppercase">Continuar</button>
                 </form>
+            </div>
+
+            <div className="optionPix mt-8 hidden">
+                <h2 className="font-sans font-bold text-2xl uppercase text-center">PIX</h2>
+                <div className="qrCodePix w-[300px] h-[300px] bg-black mt-6 m-auto rounded-[24px]">
+
+                </div>
+                <div className="infoPix mt-6">
+                    <h3 className="font-sans font-semibold text-lg uppercase text-center">Nome beneficiário: <span className="nomePix font-extrabold">Benditalab</span></h3>
+                    <h3 className="font-sans font-semibold text-lg uppercase text-center">Instiuição: <span className="nomePix font-extrabold">Nubank Pagamentos</span></h3>
+                    <h3 className="font-sans font-semibold text-lg uppercase text-center">Chave pix: <span className="nomePix font-extrabold">vendas@benditalab.com.br</span></h3>
+                     
+                    <div className="buttons w-[80%] m-auto mt-6 flex flex-col gap-4 justify-center items-center">
+                        <button className="w-full px-[32px] py-[16px] bg-black border-2 border-black rounded-[8px] font-sans font-bold text-xl text-white uppercase">Continuar</button>
+                        <button className="w-full px-[32px] py-[16px] border-2 border-black rounded-[8px] font-sans font-bold text-xl text-black uppercase">PIX Copia e Cola <span className='ml-[5px]'><ContentCopyIcon/></span></button>
+                    </div>
+                </div>
             </div>
         </div>
     )
