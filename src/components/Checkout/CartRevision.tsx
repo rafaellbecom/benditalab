@@ -23,7 +23,7 @@ export function CartRevision(){
 
                     <div className="discount-calc flex justify-between items-center mb-2">
                         <h3 className="font-sans font-bold text-xl text-blackmedium uppercase">Desconto:</h3>
-                        <h3 className="font-sans font-bold text-xl text-black uppercase">-R$0,00</h3>
+                        <h3 className="font-sans font-bold text-xl text-black uppercase">FRETEGRATIS(-R$40,10)</h3>
                     </div>
 
                     <div className="discount-calc flex justify-between items-center mb-2">
@@ -35,7 +35,7 @@ export function CartRevision(){
 
                     <div className="discount-calc flex justify-between items-center mb-2">
                         <h3 className="font-sans font-bold text-xl text-black uppercase">Total:</h3>
-                        <h3 className="font-sans font-bold text-xl text-black uppercase">R$40,10</h3>
+                        <h3 className="font-sans font-bold text-xl text-black uppercase">R$109,90</h3>
                     </div>
 
                     <button className="w-full px-[32px] py-[16px] bg-black border-2 border-black rounded-[8px] font-sans font-bold text-xl text-white uppercase">Finalizar compra</button>
